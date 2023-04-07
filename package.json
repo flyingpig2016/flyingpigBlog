@@ -1,0 +1,35 @@
+{
+  "name": "flyingpigblog",
+  "version": "1.0.0",
+  "description": "This is my blog",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyingpig2016/flyingpigBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "vue"
+  ],
+  "author": "flyingpig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyingpig2016/flyingpigBlog/issues"
+  },
+  "homepage": "https://github.com/flyingpig2016/flyingpigBlog#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "^1.9.9",
+    "@vuepress/plugin-pwa": "^1.9.9",
+    "vuepress": "^1.9.9",
+    "webpack-dev-middleware": "^6.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Flyingpig's Blog",
+  "short_name": "Blog",
+  "display": "standalone",
+  "icons": [{
+    "src": "/blog/flyingpig.png",
+    "sizes": "150x150",
+    "type": "image/png"
+  }],
+  "start_url": "/blog/index.html",
+  "background_color": "#283160",
+  "theme_color": "#fff"
+}
